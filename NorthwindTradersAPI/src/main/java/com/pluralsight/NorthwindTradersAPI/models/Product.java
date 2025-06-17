@@ -1,4 +1,4 @@
-package com.example.northwindtradersapi.models;
+package com.pluralsight.NorthwindTradersAPI.models;
 
 public class Product {
     private final int productId;

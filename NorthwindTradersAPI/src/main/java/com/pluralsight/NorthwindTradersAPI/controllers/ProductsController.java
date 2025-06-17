@@ -1,6 +1,6 @@
-package com.example.northwindtradersapi.controllers;
+package com.pluralsight.NorthwindTradersAPI.controllers;
 
-import com.example.northwindtradersapi.models.Product;
+import com.pluralsight.NorthwindTradersAPI.models.Product;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.*;

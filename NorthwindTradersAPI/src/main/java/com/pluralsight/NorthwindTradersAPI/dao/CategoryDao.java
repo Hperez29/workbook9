@@ -1,6 +1,6 @@
 package com.pluralsight.NorthwindTradersAPI.dao;
 
-import com.pluralsight.northwindtradersapi.models.Category;
+import com.pluralsight.NorthwindTradersAPI.models.Category;
 import java.util.List;
 
 public interface CategoryDao {
