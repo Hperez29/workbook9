@@ -1,12 +1,10 @@
 package com.example.northwindtradersapi.models;
 
 public class Product {
-    private int productId;
-    private String productName;
-    private int categoryId;
-    private double unitPrice;
-
-    public Product() {}
+    private final int productId;
+    private final String productName;
+    private final int categoryId;
+    private final double unitPrice;
 
     public Product(int productId, String productName, int categoryId, double unitPrice) {
         this.productId = productId;
@@ -17,14 +15,10 @@ public class Product {
 
     // Getters and Setters
     public int getProductId() { return productId; }
-    public void setProductId(int productId) { this.productId = productId; }
 
     public String getProductName() { return productName; }
-    public void setProductName(String productName) { this.productName = productName; }
 
     public int getCategoryId() { return categoryId; }
-    public void setCategoryId(int categoryId) { this.categoryId = categoryId; }
 
     public double getUnitPrice() { return unitPrice; }
-    public void setUnitPrice(double unitPrice) { this.unitPrice = unitPrice; }
 }

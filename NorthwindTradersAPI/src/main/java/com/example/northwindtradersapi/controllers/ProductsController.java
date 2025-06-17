@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 @RequestMapping("/products")
 public class ProductsController {
 
-    private List<Product> products = new ArrayList<>(List.of(
+    private final List<Product> products = new ArrayList<>(List.of(
             new Product(1, "Chai", 1, 18.0),
             new Product(2, "Chang", 1, 19.0),
             new Product(3, "Aniseed Syrup", 2, 10.0),
